@@ -1,6 +1,6 @@
 {
   "name": "cuty-parser-combinator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A general purpose parser-combinator library. Built for project cuty.",
   "keywords": ["parse, parser, combinator, parsec, regexp"],
   "homepage": "https://quaxio.com/cuty",
