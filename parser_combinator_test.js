@@ -27,6 +27,9 @@ exports.testAny = function(test) {
   p = Combinator.any([fail]);
   test.deepEqual(p("foobar"), [false, "foobar"]);
 
+  p = Combinator.any([char]);
+  test.deepEqual(p(",foobar"), [false, ",foobar"]);
+
   test.done();
 };
 

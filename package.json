@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A general purpose parser-combinator library. Built for project cuty.",
   "keywords": ["parse, parser, combinator, parsec, regexp"],
-  "homepage": "https://quaxio.com/",
+  "homepage": "https://quaxio.com/cuty",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",

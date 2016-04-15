@@ -117,7 +117,12 @@ exports.repsep = repsep;
  */
 var re = function(re) {
   return input => {
-    var t = re.exec(input);
+		var re_ = re;
+		if (re_.source[0] !== '^') {
+			// prepend ^ to force match at the beginning of the string.
+			re_ = new RegExp('^' + re_.source);
+		}
+		var t = re_.exec(input);
     if (!t) {
       return [false, input];
     }
