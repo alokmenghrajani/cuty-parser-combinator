@@ -1,13 +1,13 @@
 {
   "name": "cuty-parser-combinator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A general purpose parser-combinator library. Built for project cuty.",
   "keywords": ["parse, parser, combinator, parsec, regexp"],
   "homepage": "https://quaxio.com/cuty",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alokmenghrajani/parser-combinator.git"
+    "url": "https://github.com/alokmenghrajani/cuty-parser-combinator.git"
   },
   "engines": {
     "node": ">= 0.10.0"
